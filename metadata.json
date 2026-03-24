@@ -1,0 +1,7 @@
+{
+  "name": "TravelHub",
+  "description": "Un comparateur de voyage complet pour vols, hôtels et locations de voitures, optimisé pour l'affiliation Kiwi.com.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
