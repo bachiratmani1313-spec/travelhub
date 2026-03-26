@@ -23,6 +23,8 @@ export const TravelSearch: React.FC<TravelSearchProps> = ({ onSearch, activeServ
     directFlights: false
   });
 
+  const [originInput, setOriginInput] = useState('');
+  const [destinationInput, setDestinationInput] = useState('');
   const [suggestions, setSuggestions] = useState<{ origin: any[], destination: any[] }>({ origin: [], destination: [] });
 
   const fetchSuggestions = async (term: string, field: 'origin' | 'destination') => {
@@ -107,9 +109,10 @@ export const TravelSearch: React.FC<TravelSearchProps> = ({ onSearch, activeServ
               <input
                 type="text"
                 placeholder="Ville de départ"
-                value={params.origin}
+                value={originInput}
                 onChange={(e) => {
                   const val = e.target.value;
+                  setOriginInput(val);
                   setParams({ ...params, origin: val });
                   fetchSuggestions(val, 'origin');
                 }}
@@ -123,6 +126,7 @@ export const TravelSearch: React.FC<TravelSearchProps> = ({ onSearch, activeServ
                     key={city.code}
                     type="button"
                     onClick={() => {
+                      setOriginInput(`${city.name} (${city.code})`);
                       setParams({ ...params, origin: city.code });
                       setSuggestions(prev => ({ ...prev, origin: [] }));
                     }}
@@ -143,9 +147,10 @@ export const TravelSearch: React.FC<TravelSearchProps> = ({ onSearch, activeServ
               <input
                 type="text"
                 placeholder="Où allez-vous ?"
-                value={params.destination}
+                value={destinationInput}
                 onChange={(e) => {
                   const val = e.target.value;
+                  setDestinationInput(val);
                   setParams({ ...params, destination: val });
                   fetchSuggestions(val, 'destination');
                 }}
@@ -159,6 +164,7 @@ export const TravelSearch: React.FC<TravelSearchProps> = ({ onSearch, activeServ
                     key={city.code}
                     type="button"
                     onClick={() => {
+                      setDestinationInput(`${city.name} (${city.code})`);
                       setParams({ ...params, destination: city.code });
                       setSuggestions(prev => ({ ...prev, destination: [] }));
                     }}
