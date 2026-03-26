@@ -113,7 +113,7 @@ export const TravelSearch: React.FC<TravelSearchProps> = ({ onSearch, activeServ
                   setParams({ ...params, origin: val });
                   fetchSuggestions(val, 'origin');
                 }}
-                className="w-full pl-10 pr-4 py-3 bg-zinc-50 border-2 border-transparent focus:border-black rounded-xl text-sm transition-all outline-none"
+                className="w-full pl-10 pr-4 py-3 bg-zinc-50 border-2 border-transparent focus:border-black rounded-xl text-sm text-zinc-900 transition-all outline-none"
               />
             </div>
             {suggestions.origin.length > 0 && (
@@ -149,7 +149,7 @@ export const TravelSearch: React.FC<TravelSearchProps> = ({ onSearch, activeServ
                   setParams({ ...params, destination: val });
                   fetchSuggestions(val, 'destination');
                 }}
-                className="w-full pl-10 pr-4 py-3 bg-zinc-50 border-2 border-transparent focus:border-black rounded-xl text-sm transition-all outline-none"
+                className="w-full pl-10 pr-4 py-3 bg-zinc-50 border-2 border-transparent focus:border-black rounded-xl text-sm text-zinc-900 transition-all outline-none"
               />
             </div>
             {suggestions.destination.length > 0 && (
@@ -180,7 +180,7 @@ export const TravelSearch: React.FC<TravelSearchProps> = ({ onSearch, activeServ
                 type="date"
                 value={params.departureDate}
                 onChange={(e) => setParams({ ...params, departureDate: e.target.value })}
-                className="w-full pl-10 pr-4 py-3 bg-zinc-50 border-2 border-transparent focus:border-black rounded-xl text-sm transition-all outline-none"
+                className="w-full pl-10 pr-4 py-3 bg-zinc-50 border-2 border-transparent focus:border-black rounded-xl text-sm text-zinc-900 transition-all outline-none"
               />
             </div>
           </div>
@@ -194,7 +194,7 @@ export const TravelSearch: React.FC<TravelSearchProps> = ({ onSearch, activeServ
                   type="date"
                   value={params.returnDate}
                   onChange={(e) => setParams({ ...params, returnDate: e.target.value })}
-                  className="w-full pl-10 pr-4 py-3 bg-zinc-50 border-2 border-transparent focus:border-black rounded-xl text-sm transition-all outline-none"
+                  className="w-full pl-10 pr-4 py-3 bg-zinc-50 border-2 border-transparent focus:border-black rounded-xl text-sm text-zinc-900 transition-all outline-none"
                 />
               </div>
             </div>
