@@ -1,4 +1,4 @@
-import { PRODUCTS } from '../data/products';
+import { PRODUCTS } from '../../data/products';
 
 const AFFILIATE_TAG = "vrax-21";
 
