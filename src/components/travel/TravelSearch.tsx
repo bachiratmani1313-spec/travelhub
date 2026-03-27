@@ -67,22 +67,32 @@ export const TravelSearch: React.FC<TravelSearchProps> = ({
   }, [params, isRoundTrip]);
 
   const fetchSuggestions = async (term: string, field: 'origin' | 'destination') => {
-    if (term.trim().length < 2) {
-      setSuggestions((prev) => ({ ...prev, [field]: [] }));
-      return;
-    }
+  if (term.trim().length < 2) {
+    setSuggestions((prev) => ({ ...prev, [field]: [] }));
+    return;
+  }
 
-    try {
-      const response = await fetch(
-        `https://autocomplete.travelpayouts.com/places2?term=${encodeURIComponent(term)}&locale=fr&types[]=city`
-      );
-      const data = await response.json();
-      setSuggestions((prev) => ({ ...prev, [field]: Array.isArray(data) ? data : [] }));
-    } catch (error) {
-      console.error('Autocomplete error:', error);
-      setSuggestions((prev) => ({ ...prev, [field]: [] }));
-    }
-  };
+  try {
+    const response = await fetch(
+      `https://autocomplete.travelpayouts.com/places2?term=${encodeURIComponent(term)}&locale=fr&types[]=city&types[]=airport`
+    );
+
+    const data = await response.json();
+
+    const cleanData = (Array.isArray(data) ? data : [])
+      .filter((item) => item.name && item.code)
+      .slice(0, 5);
+
+    setSuggestions((prev) => ({
+      ...prev,
+      [field]: cleanData
+    }));
+
+  } catch (error) {
+    console.error('Autocomplete error:', error);
+    setSuggestions((prev) => ({ ...prev, [field]: [] }));
+  }
+};
 
   const handleTripTypeChange = (tripType: 'round-trip' | 'one-way') => {
     setParams((prev) => ({
