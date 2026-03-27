@@ -241,8 +241,8 @@ window.open(url, "_blank");
                     onClick={() => handleSelectSuggestion('origin', city)}
                     className="w-full text-left px-4 py-2 hover:bg-zinc-50 text-sm flex justify-between items-center"
                   >
-                    <span>{city.name}</span>
-                    <span className="text-[10px] font-bold text-zinc-400">{city.code}</span>
+                    <span>{city.city_name || city.name} ({city.code})</span>
+                    
                   </button>
                 ))}
               </div>
