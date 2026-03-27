@@ -58,7 +58,7 @@ export const FlightCard: React.FC<FlightCardProps> = ({ flight }) => {
             {flight.price} {flight.currency}
           </div>
           <a
-            href={flight.deepLink}
+            href={`https://aviasales.tpx.gr/ZHp8RWIl?origin=${flight.origin}&destination=${flight.destination}&departure=${flight.departureTime?.slice(0,10)}`}
             target="_blank"
             rel="noopener noreferrer"
             className="w-full md:w-auto bg-black text-white px-6 py-2 rounded-full text-xs font-bold flex items-center justify-center gap-2 hover:bg-zinc-800 transition-all"
