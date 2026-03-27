@@ -136,7 +136,9 @@ export const TravelSearch: React.FC<TravelSearchProps> = ({
 
     try {
       setIsSubmitting(true);
-      await Promise.resolve(onSearch(activeService, params));
+    const url = `https://aviasales.tpx.gr/ZHp8RWIl?origin=${params.origin}&destination=${params.destination}&departure=${params.departureDate}&return=${params.returnDate}`;
+
+window.open(url, "_blank");
     } catch (error) {
       console.error('Search submit error:', error);
       setErrorMessage('Une erreur est survenue pendant la recherche.');
