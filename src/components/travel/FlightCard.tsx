@@ -13,7 +13,7 @@ export default function FlightCard() {
       return;
     }
 
-    const baseUrl = "https://aviasales.tp.st/TONLIEN";
+   const baseUrl = "https://aviasales.tpx.gr/ZHp8RWIl";
 
     const url = `${baseUrl}?origin=${from}&destination=${to}&departure=${departureDate}&return=${returnDate}`;
 
