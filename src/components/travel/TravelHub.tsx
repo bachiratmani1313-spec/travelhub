@@ -52,7 +52,7 @@ const TravelMapWidget: React.FC = () => {
     <div className="w-full bg-zinc-900 rounded-3xl p-4 md:p-6 border border-zinc-800 shadow-xl mt-4 md:mt-6 overflow-hidden relative group min-h-[400px] md:min-h-[600px]">
       <div className="absolute inset-0 z-0">
         <img 
-          src="https://images.unsplash.com/photo-1524661135-423995f22d0b?auto=format&fit=crop&q=80&w=1000" 
+          src="https://images.unsplash.com/photo-1594322436404-5a0526db4d13?w=400" 
           className="w-full h-full object-cover opacity-50 transition-transform duration-700 group-hover:scale-110"
           referrerPolicy="no-referrer"
         />
@@ -111,7 +111,7 @@ const TravelPayoutsWidget: React.FC = () => {
     <div className="w-full bg-zinc-900 rounded-3xl p-4 md:p-6 border border-zinc-800 shadow-xl mt-4 md:mt-6 relative overflow-hidden group">
       <div className="absolute inset-0 z-0">
         <img 
-          src="https://images.unsplash.com/photo-1436491865332-7a61a109c055?auto=format&fit=crop&q=80&w=1000" 
+          src="https://images.unsplash.com/photo-1594322436404-5a0526db4d13?w=400" 
           className="w-full h-full object-cover opacity-40 transition-transform duration-700 group-hover:scale-110"
           referrerPolicy="no-referrer"
         />
@@ -170,7 +170,7 @@ const TravelCalendarWidget: React.FC = () => {
     <div className="w-full bg-zinc-900 rounded-3xl p-4 md:p-6 border border-zinc-800 shadow-xl mt-4 md:mt-6 relative overflow-hidden group">
       <div className="absolute inset-0 z-0">
         <img 
-          src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&q=80&w=1000" 
+          src="https://images.unsplash.com/photo-1594322436404-5a0526db4d13?w=400" 
           className="w-full h-full object-cover opacity-40 transition-transform duration-700 group-hover:scale-110"
           referrerPolicy="no-referrer"
         />
@@ -228,7 +228,7 @@ const TravelSearchWidget: React.FC = () => {
     <div className="hidden md:block w-full bg-zinc-900 rounded-3xl p-4 md:p-6 border border-zinc-800 shadow-xl mt-4 md:mt-6 relative overflow-hidden min-h-[300px] group">
       <div className="absolute inset-0 z-0">
         <img 
-          src="https://images.unsplash.com/photo-1488646953014-85cb44e25828?auto=format&fit=crop&q=80&w=1000" 
+          src="https://images.unsplash.com/photo-1594322436404-5a0526db4d13?w=400" 
           alt="Travel Planning" 
           className="w-full h-full object-cover opacity-60 transition-transform duration-700 group-hover:scale-105"
           referrerPolicy="no-referrer"
@@ -269,7 +269,7 @@ const BaliVillasWidget: React.FC = () => {
     <div className="w-full bg-zinc-900 rounded-3xl p-6 md:p-8 border border-zinc-800 shadow-2xl mt-4 md:mt-6 relative overflow-hidden group min-h-[350px] flex flex-col justify-center">
       <div className="absolute inset-0 z-0">
         <img 
-          src="https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&q=80&w=1200" 
+          src="https://images.unsplash.com/photo-1594322436404-5a0526db4d13?w=400" 
           alt="Bali Luxury Villa" 
           className="w-full h-full object-cover opacity-50 transition-transform duration-1000 group-hover:scale-110"
           referrerPolicy="no-referrer"
@@ -342,7 +342,7 @@ const WayAwayWidget: React.FC = () => {
     <div className="w-full bg-zinc-900 rounded-3xl p-4 md:p-6 border border-zinc-800 shadow-xl mt-4 md:mt-6 relative overflow-hidden group">
       <div className="absolute inset-0 z-0">
         <img 
-          src="https://images.unsplash.com/photo-1436491865332-7a61a109c055?auto=format&fit=crop&q=80&w=1000" 
+          src="https://images.unsplash.com/photo-1594322436404-5a0526db4d13?w=400" 
           className="w-full h-full object-cover opacity-50 transition-transform duration-700 group-hover:scale-110"
           referrerPolicy="no-referrer"
         />
@@ -400,7 +400,7 @@ const PartnerHotelsWidget: React.FC = () => {
     <div className="w-full bg-zinc-900 rounded-3xl p-4 md:p-6 border border-zinc-800 shadow-xl mt-4 md:mt-6 relative overflow-hidden group">
       <div className="absolute inset-0 z-0">
         <img 
-          src="https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&q=80&w=1000" 
+          src="https://images.unsplash.com/photo-1594322436404-5a0526db4d13?w=400" 
           className="w-full h-full object-cover opacity-50 transition-transform duration-700 group-hover:scale-110"
           referrerPolicy="no-referrer"
         />
@@ -459,7 +459,7 @@ const RentalCarsWidget: React.FC = () => {
     <div className="w-full bg-zinc-900 rounded-3xl p-4 md:p-6 border border-zinc-800 shadow-xl mt-4 md:mt-6 relative overflow-hidden group">
       <div className="absolute inset-0 z-0">
         <img 
-          src="https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&q=80&w=1000" 
+          src="https://images.unsplash.com/photo-1594322436404-5a0526db4d13?w=400" 
           className="w-full h-full object-cover opacity-50 transition-transform duration-700 group-hover:scale-110"
           referrerPolicy="no-referrer"
         />
@@ -521,7 +521,7 @@ const WeGoTripWidget: React.FC = () => {
     <div className="w-full bg-zinc-900 rounded-3xl p-4 md:p-6 border border-zinc-800 shadow-xl mt-4 md:mt-6 relative overflow-hidden group">
       <div className="absolute inset-0 z-0">
         <img 
-          src="https://images.unsplash.com/photo-1530789253388-582c481c54b0?auto=format&fit=crop&q=80&w=1000" 
+          src="https://images.unsplash.com/photo-1594322436404-5a0526db4d13?w=400" 
           className="w-full h-full object-cover opacity-50 transition-transform duration-700 group-hover:scale-110"
           referrerPolicy="no-referrer"
         />
@@ -583,7 +583,7 @@ const CategoryToursWidget: React.FC = () => {
     <div className="w-full bg-zinc-900 rounded-3xl p-4 md:p-6 border border-zinc-800 shadow-xl mt-4 md:mt-6 relative overflow-hidden group">
       <div className="absolute inset-0 z-0">
         <img 
-          src="https://images.unsplash.com/photo-1530789253388-582c481c54b0?auto=format&fit=crop&q=80&w=1000" 
+          src="https://images.unsplash.com/photo-1594322436404-5a0526db4d13?w=400" 
           className="w-full h-full object-cover opacity-50 transition-transform duration-700 group-hover:scale-110"
           referrerPolicy="no-referrer"
         />
@@ -645,7 +645,7 @@ const ExperiencesWidget: React.FC = () => {
     <div className="w-full bg-zinc-900 rounded-3xl p-4 md:p-6 border border-zinc-800 shadow-xl mt-4 md:mt-6 relative overflow-hidden group">
       <div className="absolute inset-0 z-0">
         <img 
-          src="https://images.unsplash.com/photo-1523731407965-2430cd12f5e4?auto=format&fit=crop&q=80&w=1000" 
+          src="https://images.unsplash.com/photo-1594322436404-5a0526db4d13?w=400" 
           className="w-full h-full object-cover opacity-50 transition-transform duration-700 group-hover:scale-110"
           referrerPolicy="no-referrer"
         />
@@ -707,7 +707,7 @@ const WelcomePickupsWidget: React.FC = () => {
     <div className="w-full bg-zinc-900 rounded-3xl p-4 md:p-6 border border-zinc-800 shadow-xl mt-4 md:mt-6 relative overflow-hidden group">
       <div className="absolute inset-0 z-0">
         <img 
-          src="https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&q=80&w=1000" 
+          src="https://images.unsplash.com/photo-1594322436404-5a0526db4d13?w=400" 
           className="w-full h-full object-cover opacity-50 transition-transform duration-700 group-hover:scale-110"
           referrerPolicy="no-referrer"
         />
@@ -769,7 +769,7 @@ const KiwiWidget: React.FC = () => {
     <div className="w-full bg-zinc-900 rounded-3xl p-4 md:p-6 border border-zinc-800 shadow-xl mt-4 md:mt-6 relative overflow-hidden group">
       <div className="absolute inset-0 z-0">
         <img 
-          src="https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?auto=format&fit=crop&q=80&w=1000" 
+          src="https://images.unsplash.com/photo-1594322436404-5a0526db4d13?w=400" 
           className="w-full h-full object-cover opacity-50 transition-transform duration-700 group-hover:scale-110"
           referrerPolicy="no-referrer"
         />
@@ -831,7 +831,7 @@ const KiwiSearchResultsWidget: React.FC = () => {
     <div className="w-full bg-zinc-900 rounded-3xl p-4 md:p-6 border border-zinc-800 shadow-xl mt-4 md:mt-6 relative overflow-hidden group">
       <div className="absolute inset-0 z-0">
         <img 
-          src="https://images.unsplash.com/photo-1436491865332-7a61a109c055?auto=format&fit=crop&q=80&w=1000" 
+          src="https://images.unsplash.com/photo-1594322436404-5a0526db4d13?w=400" 
           className="w-full h-full object-cover opacity-50 transition-transform duration-700 group-hover:scale-110"
           referrerPolicy="no-referrer"
         />
@@ -893,7 +893,7 @@ const KiwiPopularRoutesWidget: React.FC = () => {
     <div className="w-full bg-zinc-900 rounded-3xl p-4 md:p-6 border border-zinc-800 shadow-xl mt-4 md:mt-6 relative overflow-hidden group">
       <div className="absolute inset-0 z-0">
         <img 
-          src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&q=80&w=1000" 
+          src="https://images.unsplash.com/photo-1594322436404-5a0526db4d13?w=400" 
           className="w-full h-full object-cover opacity-50 transition-transform duration-700 group-hover:scale-110"
           referrerPolicy="no-referrer"
         />
@@ -955,7 +955,7 @@ const TiqetsWidget: React.FC = () => {
     <div className="w-full bg-zinc-900 rounded-3xl p-4 md:p-6 border border-zinc-800 shadow-xl mt-4 md:mt-6 relative overflow-hidden group">
       <div className="absolute inset-0 z-0">
         <img 
-          src="https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&q=80&w=1000" 
+          src="https://images.unsplash.com/photo-1594322436404-5a0526db4d13?w=400" 
           className="w-full h-full object-cover opacity-50 transition-transform duration-700 group-hover:scale-110"
           referrerPolicy="no-referrer"
         />
@@ -1017,7 +1017,7 @@ const TiqetsSpecificTourWidget: React.FC = () => {
     <div className="w-full bg-zinc-900 rounded-3xl p-4 md:p-6 border border-zinc-800 shadow-xl mt-4 md:mt-6 relative overflow-hidden group">
       <div className="absolute inset-0 z-0">
         <img 
-          src="https://images.unsplash.com/photo-1554224155-1696413565d3?auto=format&fit=crop&q=80&w=1000" 
+          src="https://images.unsplash.com/photo-1594322436404-5a0526db4d13?w=400" 
           className="w-full h-full object-cover opacity-50 transition-transform duration-700 group-hover:scale-110"
           referrerPolicy="no-referrer"
         />
@@ -1079,7 +1079,7 @@ const TiqetsAvailabilityCalendarWidget: React.FC = () => {
     <div className="w-full bg-zinc-900 rounded-3xl p-4 md:p-6 border border-zinc-800 shadow-xl mt-4 md:mt-6 relative overflow-hidden group">
       <div className="absolute inset-0 z-0">
         <img 
-          src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&q=80&w=1000" 
+          src="https://images.unsplash.com/photo-1594322436404-5a0526db4d13?w=400" 
           className="w-full h-full object-cover opacity-50 transition-transform duration-700 group-hover:scale-110"
           referrerPolicy="no-referrer"
         />
@@ -1141,7 +1141,7 @@ const KiwiPopularDestinationsWidget: React.FC = () => {
     <div className="w-full bg-zinc-900 rounded-3xl p-4 md:p-6 border border-zinc-800 shadow-xl mt-4 md:mt-6 relative overflow-hidden group">
       <div className="absolute inset-0 z-0">
         <img 
-          src="https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?auto=format&fit=crop&q=80&w=1000" 
+          src="https://images.unsplash.com/photo-1594322436404-5a0526db4d13?w=400" 
           className="w-full h-full object-cover opacity-50 transition-transform duration-700 group-hover:scale-110"
           referrerPolicy="no-referrer"
         />
@@ -1201,7 +1201,7 @@ const PopularDestinationsWidget: React.FC = () => {
     <div className="w-full bg-zinc-900 rounded-3xl p-4 md:p-6 border border-zinc-800 shadow-xl mt-4 md:mt-6 relative overflow-hidden group">
       <div className="absolute inset-0 z-0">
         <img 
-          src="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&q=80&w=1000" 
+          src="https://images.unsplash.com/photo-1594322436404-5a0526db4d13?w=400" 
           className="w-full h-full object-cover opacity-50 transition-transform duration-700 group-hover:scale-110"
           referrerPolicy="no-referrer"
         />
@@ -1259,7 +1259,7 @@ const SpecialOffersWidget: React.FC = () => {
     <div className="w-full bg-zinc-900 rounded-3xl p-4 md:p-6 border border-zinc-800 shadow-xl mt-4 md:mt-6 relative overflow-hidden group">
       <div className="absolute inset-0 z-0">
         <img 
-          src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&q=80&w=1000" 
+          src="https://images.unsplash.com/photo-1594322436404-5a0526db4d13?w=400" 
           className="w-full h-full object-cover opacity-50 transition-transform duration-700 group-hover:scale-110"
           referrerPolicy="no-referrer"
         />
@@ -1315,7 +1315,7 @@ const EuroDealsWidget: React.FC = () => {
     <div className="w-full bg-zinc-900 rounded-3xl p-4 md:p-6 border border-zinc-800 shadow-xl mt-4 md:mt-6 relative overflow-hidden group">
       <div className="absolute inset-0 z-0">
         <img 
-          src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&q=80&w=1000" 
+          src="https://images.unsplash.com/photo-1594322436404-5a0526db4d13?w=400" 
           className="w-full h-full object-cover opacity-50 transition-transform duration-700 group-hover:scale-110"
           referrerPolicy="no-referrer"
         />
@@ -1371,7 +1371,7 @@ const HotelsSelectionWidget: React.FC = () => {
     <div className="w-full bg-zinc-900 rounded-3xl p-4 md:p-6 border border-zinc-800 shadow-xl mt-4 md:mt-6 relative overflow-hidden group">
       <div className="absolute inset-0 z-0">
         <img 
-          src="https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&q=80&w=1000" 
+          src="https://images.unsplash.com/photo-1594322436404-5a0526db4d13?w=400" 
           className="w-full h-full object-cover opacity-50 transition-transform duration-700 group-hover:scale-110"
           referrerPolicy="no-referrer"
         />
@@ -1478,7 +1478,7 @@ export const TravelHub: React.FC = () => {
   }, []);
 
   const handleSearch = async (service: TravelServiceType, params: SearchParams) => {
-    console.log('Searching for:', service, params);
+    console.log('TravelHub handleSearch called with:', { service, params });
     setIsLoading(true);
     try {
       if (service === 'flights') {
@@ -1631,7 +1631,7 @@ export const TravelHub: React.FC = () => {
       <header className="relative h-[50vh] md:h-[65vh] flex flex-col items-center justify-center overflow-hidden bg-black">
         <div className="absolute inset-0 z-0">
           <img 
-            src="https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&q=80&w=1920" 
+            src="https://images.unsplash.com/photo-1594322436404-5a0526db4d13?w=400" 
             alt="Athens background" 
             className="w-full h-full object-cover opacity-40"
             referrerPolicy="no-referrer"
@@ -1735,7 +1735,7 @@ export const TravelHub: React.FC = () => {
                 </div>
                 <div className="relative h-64 md:h-auto overflow-hidden">
                   <img 
-                    src="https://images.unsplash.com/photo-1503152394-c571994fd383?auto=format&fit=crop&q=80&w=1000" 
+                    src="https://images.unsplash.com/photo-1594322436404-5a0526db4d13?w=400" 
                     alt="Athens Acropolis" 
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                     referrerPolicy="no-referrer"
@@ -1794,8 +1794,8 @@ export const TravelHub: React.FC = () => {
               </div>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {[
-                  { name: 'Athens One Smart Hotel', price: '75 €', rating: '4.1', reviews: '273', image: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&q=80&w=600' },
-                  { name: 'Skylark, Aluma Hotels & Resorts', price: '133 €', rating: '4.2', reviews: '690', image: 'https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&q=80&w=600' }
+                  { name: 'Athens One Smart Hotel', price: '75 €', rating: '4.1', reviews: '273', image: 'https://images.unsplash.com/photo-1594322436404-5a0526db4d13?w=400' },
+                  { name: 'Skylark, Aluma Hotels & Resorts', price: '133 €', rating: '4.2', reviews: '690', image: 'https://images.unsplash.com/photo-1594322436404-5a0526db4d13?w=400' }
                 ].map((hotel, i) => (
                   <div key={i} className="bg-zinc-900 rounded-3xl overflow-hidden border border-zinc-800 shadow-xl hover:border-zinc-700 transition-all cursor-pointer group">
                     <div className="relative h-48 overflow-hidden">
@@ -1901,9 +1901,9 @@ export const TravelHub: React.FC = () => {
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {[
-            { name: 'Paris', country: 'France', iata: 'PAR', image: 'https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&q=80&w=800', price: '45€' },
-            { name: 'New York', country: 'USA', iata: 'NYC', image: 'https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?auto=format&fit=crop&q=80&w=800', price: '320€' },
-            { name: 'Tokyo', country: 'Japon', iata: 'TYO', image: 'https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?auto=format&fit=crop&q=80&w=800', price: '550€' }
+            { name: 'Paris', country: 'France', iata: 'PAR', image: 'https://images.unsplash.com/photo-1594322436404-5a0526db4d13?w=400', price: '45€' },
+            { name: 'New York', country: 'USA', iata: 'NYC', image: 'https://images.unsplash.com/photo-1594322436404-5a0526db4d13?w=400', price: '320€' },
+            { name: 'Tokyo', country: 'Japon', iata: 'TYO', image: 'https://images.unsplash.com/photo-1594322436404-5a0526db4d13?w=400', price: '550€' }
           ].map((dest, i) => (
             <div 
               key={i} 
@@ -1939,52 +1939,74 @@ export const TravelHub: React.FC = () => {
           </div>
         </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
            {/* Deal 1 */}
            <div 
-             onClick={() => window.open(`https://www.aviasales.com/search/PAR2005NYC27051?marker=${getMarker()}`, '_blank')}
+             onClick={() => window.open(`https://amzn.to/4lPkFW2`, '_blank')}
              className="group relative aspect-video rounded-[2.5rem] overflow-hidden cursor-pointer shadow-2xl border border-zinc-800 hover:border-zinc-700 transition-all"
            >
              <img 
-               src="https://images.unsplash.com/photo-1436491865332-7a61a109c055?auto=format&fit=crop&q=80&w=1000" 
-               alt="Deal 1" 
+               src="https://images.unsplash.com/photo-1622560480605-d83c853bc5c3?auto=format&fit=crop&q=80&w=1000" 
+               alt="Osprey Deal" 
                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                referrerPolicy="no-referrer"
              />
              <div className="absolute inset-0 bg-black/50 group-hover:bg-black/30 transition-colors" />
-             <div className="absolute top-6 right-6 bg-white text-black px-4 py-2 rounded-full font-bold text-[10px] uppercase tracking-widest shadow-lg">
-               -45% DE RÉDUCTION
+             <div className="absolute top-6 right-6 bg-amber-400 text-black px-4 py-2 rounded-full font-bold text-[10px] uppercase tracking-widest shadow-lg">
+               BEST-SELLER
              </div>
              <div className="absolute bottom-8 left-8">
-               <p className="text-white/60 text-[10px] font-mono font-bold uppercase tracking-widest mb-2">Vol Aller-Retour</p>
-               <h3 className="text-3xl font-display font-bold text-white uppercase tracking-tight">Paris → New York</h3>
-                <p className="text-4xl font-display font-bold text-white mt-2"><span className="text-sm font-sans font-normal text-white/40 mr-1 italic">Dès</span> 299€</p>
+               <p className="text-white/60 text-[10px] font-mono font-bold uppercase tracking-widest mb-2">Sac à Dos Cabine</p>
+               <h3 className="text-3xl font-display font-bold text-white uppercase tracking-tight">Osprey Fairview 40</h3>
+                <p className="text-4xl font-display font-bold text-white mt-2"><span className="text-sm font-sans font-normal text-white/40 mr-1 italic">Dès</span> 125€</p>
              </div>
            </div>
            
-           {/* Deal 2 */}
-           <div 
-             onClick={() => window.open(`https://www.aviasales.com/search/LON1006DXB17061?marker=${getMarker()}`, '_blank')}
-             className="group relative aspect-video rounded-[2.5rem] overflow-hidden cursor-pointer shadow-2xl border border-zinc-800 hover:border-zinc-700 transition-all"
-           >
-             <img 
-               src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&q=80&w=1000" 
-               alt="Deal 2" 
-               className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-               referrerPolicy="no-referrer"
-             />
-             <div className="absolute inset-0 bg-black/50 group-hover:bg-black/30 transition-colors" />
-             <div className="absolute top-6 right-6 bg-white text-black px-4 py-2 rounded-full font-bold text-[10px] uppercase tracking-widest shadow-lg">
-               PRIX IMBATTABLE
-             </div>
-             <div className="absolute bottom-8 left-8">
-               <p className="text-white/60 text-[10px] font-mono font-bold uppercase tracking-widest mb-2">Offre de Saison</p>
-               <h3 className="text-3xl font-display font-bold text-white uppercase tracking-tight">Londres → Dubaï</h3>
-                <p className="text-4xl font-display font-bold text-white mt-2"><span className="text-sm font-sans font-normal text-white/40 mr-1 italic">Dès</span> 385€</p>
-             </div>
-           </div>
-        </div>
-      </section>
+            {/* Deal 2 */}
+            <div 
+              onClick={() => window.open(`https://amzn.to/47my9Tf`, '_blank')}
+              className="group relative aspect-video rounded-[2.5rem] overflow-hidden cursor-pointer shadow-2xl border border-zinc-800 hover:border-zinc-700 transition-all"
+            >
+              <img 
+                src="https://m.media-amazon.com/images/I/81yz7s-jj9L._AC_SL1500_.jpg" 
+                alt="Samsonite Deal" 
+                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                referrerPolicy="no-referrer"
+              />
+              <div className="absolute inset-0 bg-black/50 group-hover:bg-black/30 transition-colors" />
+              <div className="absolute top-6 right-6 bg-amber-400 text-black px-4 py-2 rounded-full font-bold text-[10px] uppercase tracking-widest shadow-lg">
+                OFFRE EXCLUSIVE
+              </div>
+              <div className="absolute bottom-8 left-8">
+                <p className="text-white/60 text-[10px] font-mono font-bold uppercase tracking-widest mb-2">Set de 3 Valises</p>
+                <h3 className="text-3xl font-display font-bold text-white uppercase tracking-tight">Samsonite Omni 2</h3>
+                 <p className="text-4xl font-display font-bold text-white mt-2"><span className="text-sm font-sans font-normal text-white/40 mr-1 italic">Dès</span> 199€</p>
+              </div>
+            </div>
+
+            {/* Deal 3 */}
+            <div 
+              onClick={() => window.open(`https://amzn.to/4lYlpsa`, '_blank')}
+              className="group relative aspect-video rounded-[2.5rem] overflow-hidden cursor-pointer shadow-2xl border border-zinc-800 hover:border-zinc-700 transition-all"
+            >
+              <img 
+                src="https://m.media-amazon.com/images/I/615tM7hVoNL._AC_SX522_.jpg" 
+                alt="Backpack Deal" 
+                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                referrerPolicy="no-referrer"
+              />
+              <div className="absolute inset-0 bg-black/50 group-hover:bg-black/30 transition-colors" />
+              <div className="absolute top-6 right-6 bg-amber-400 text-black px-4 py-2 rounded-full font-bold text-[10px] uppercase tracking-widest shadow-lg">
+                TOP PRIX
+              </div>
+              <div className="absolute bottom-8 left-8">
+                <p className="text-white/60 text-[10px] font-mono font-bold uppercase tracking-widest mb-2">Sac à Dos Voyage</p>
+                <h3 className="text-3xl font-display font-bold text-white uppercase tracking-tight">Sac 40 L</h3>
+                 <p className="text-4xl font-display font-bold text-white mt-2"><span className="text-sm font-sans font-normal text-white/40 mr-1 italic">Dès</span> 49€</p>
+              </div>
+            </div>
+         </div>
+       </section>
 
       {/* Main Widgets Grid - Compact */}
       <div className="max-w-6xl mx-auto px-4 py-8 grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -2033,7 +2055,7 @@ export const TravelHub: React.FC = () => {
             {
               title: "10 Astuces pour voyager moins cher en 2026",
               excerpt: "Découvrez comment notre IA déniche les perles rares et comment vous pouvez en profiter.",
-              image: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&q=80&w=800",
+              image: "https://images.unsplash.com/photo-1594322436404-5a0526db4d13?w=400",
               date: "20 Mars 2026",
               category: "Économies",
               iata: "PAR"
@@ -2041,7 +2063,7 @@ export const TravelHub: React.FC = () => {
             {
               title: "Les destinations les plus sûres cette année",
               excerpt: "La sécurité est primordiale. Voici notre sélection basée sur les données récentes.",
-              image: "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&q=80&w=800",
+              image: "https://images.unsplash.com/photo-1594322436404-5a0526db4d13?w=400",
               date: "18 Mars 2026",
               category: "Sécurité",
               iata: "NYC"
@@ -2049,7 +2071,7 @@ export const TravelHub: React.FC = () => {
             {
               title: "Comment préparer son sac pour un tour du monde",
               excerpt: "L'art de voyager léger sans rien oublier d'essentiel. Nos experts vous conseillent.",
-              image: "https://images.unsplash.com/photo-1503220317375-aaad61436b1b?auto=format&fit=crop&q=80&w=800",
+              image: "https://images.unsplash.com/photo-1594322436404-5a0526db4d13?w=400",
               date: "15 Mars 2026",
               category: "Préparation",
               iata: "TYO"
@@ -2057,7 +2079,7 @@ export const TravelHub: React.FC = () => {
             {
               title: "Top 5 des applications indispensables en voyage",
               excerpt: "Gérez vos réservations, traduisez en temps réel et ne vous perdez plus jamais.",
-              image: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&q=80&w=800",
+              image: "https://images.unsplash.com/photo-1594322436404-5a0526db4d13?w=400",
               date: "12 Mars 2026",
               category: "Technologie",
               iata: "LON"
@@ -2065,7 +2087,7 @@ export const TravelHub: React.FC = () => {
             {
               title: "Voyager en solo : Guide de survie et de plaisir",
               excerpt: "Tout ce qu'il faut savoir pour sa première aventure en solitaire en toute confiance.",
-              image: "https://images.unsplash.com/photo-1527631746610-bca00a040d60?auto=format&fit=crop&q=80&w=800",
+              image: "https://images.unsplash.com/photo-1594322436404-5a0526db4d13?w=400",
               date: "10 Mars 2026",
               category: "Solo",
               iata: "DXB"
@@ -2073,7 +2095,7 @@ export const TravelHub: React.FC = () => {
             {
               title: "Le guide ultime du nomadisme digital",
               excerpt: "Travailler d'où vous voulez : les meilleures villes pour les nomades en 2026.",
-              image: "https://images.unsplash.com/photo-1499750310107-5fef28a66643?auto=format&fit=crop&q=80&w=800",
+              image: "https://images.unsplash.com/photo-1594322436404-5a0526db4d13?w=400",
               date: "08 Mars 2026",
               category: "Nomade",
               iata: "ATH"
@@ -2222,7 +2244,7 @@ export const TravelHub: React.FC = () => {
           </div>
           <div className="relative aspect-square md:aspect-video rounded-2xl md:rounded-3xl overflow-hidden border border-white/10">
             <img 
-              src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=1000" 
+              src="https://images.unsplash.com/photo-1594322436404-5a0526db4d13?w=400" 
               alt="AI Technology" 
               className="w-full h-full object-cover opacity-60"
               referrerPolicy="no-referrer"

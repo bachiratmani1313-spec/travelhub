@@ -29,6 +29,9 @@ export const FlightCard: React.FC<FlightCardProps> = ({ flight }) => {
               {format(new Date(flight.departureTime), 'HH:mm')}
             </div>
             <div className="text-[10px] uppercase tracking-widest font-bold text-zinc-400">Départ</div>
+            <div className="text-xs font-bold text-zinc-600 mt-1">
+              {flight.originCity} <span className="text-zinc-400 ml-1">({flight.originCode})</span>
+            </div>
           </div>
 
           <div className="flex flex-col items-center gap-1 flex-1 max-w-[120px]">
@@ -48,6 +51,9 @@ export const FlightCard: React.FC<FlightCardProps> = ({ flight }) => {
               {flight.arrivalTime ? format(new Date(flight.arrivalTime), 'HH:mm') : '--:--'}
             </div>
             <div className="text-[10px] uppercase tracking-widest font-bold text-zinc-400">Arrivée</div>
+            <div className="text-xs font-bold text-zinc-600 mt-1">
+              {flight.destinationCity} <span className="text-zinc-400 ml-1">({flight.destinationCode})</span>
+            </div>
           </div>
         </div>
 

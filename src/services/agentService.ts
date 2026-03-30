@@ -85,7 +85,7 @@ class AgentService {
         type: 'flight',
         tripType: 'Aller-Retour',
         description: 'Vols aller-retour vers Denpasar. Explorez les rizières et les plages paradisiaques de Bali.',
-        image: 'https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&q=80&w=800'
+        image: 'https://images.unsplash.com/photo-1594322436404-5a0526db4d13?w=400'
       },
       {
         id: 'ai-2',
@@ -97,7 +97,7 @@ class AgentService {
         type: 'flight',
         tripType: 'Aller-Retour',
         description: 'Vols directs pour Marrakech. Découvrez le charme de la Médina et ses palais somptueux.',
-        image: 'https://images.unsplash.com/photo-1539020140153-e479b8c22e70?auto=format&fit=crop&q=80&w=800'
+        image: 'https://images.unsplash.com/photo-1594322436404-5a0526db4d13?w=400'
       },
       {
         id: 'ai-3',
@@ -109,7 +109,7 @@ class AgentService {
         type: 'flight',
         tripType: 'Aller Simple',
         description: 'Vol aller simple pour Lisbonne. Profitez du soleil portugais et des célèbres pastéis de nata.',
-        image: 'https://images.unsplash.com/photo-1585211949323-aac324148a74?auto=format&fit=crop&q=80&w=800'
+        image: 'https://images.unsplash.com/photo-1594322436404-5a0526db4d13?w=400'
       },
       {
         id: 'ai-4',
@@ -121,7 +121,7 @@ class AgentService {
         type: 'flight',
         tripType: 'Aller Simple',
         description: 'Vol aller simple pour Rome. La Ville Éternelle vous attend pour une escapade culturelle unique.',
-        image: 'https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&q=80&w=800'
+        image: 'https://images.unsplash.com/photo-1594322436404-5a0526db4d13?w=400'
       }
     ];
   }

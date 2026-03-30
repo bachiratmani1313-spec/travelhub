@@ -2,7 +2,9 @@ export type TravelService = 'flights' | 'hotels' | 'cars';
 
 export interface SearchParams {
   origin?: string;
+  originName?: string;
   destination?: string;
+  destinationName?: string;
   departureDate: string;
   returnDate?: string;
   adults: number;
@@ -17,6 +19,10 @@ export interface FlightResult {
   id: string;
   airline: string;
   airlineLogo: string;
+  originCity: string;
+  originCode: string;
+  destinationCity: string;
+  destinationCode: string;
   departureTime: string;
   arrivalTime: string;
   duration: string;

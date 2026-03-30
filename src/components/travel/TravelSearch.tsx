@@ -43,6 +43,7 @@ export const TravelSearch: React.FC<TravelSearchProps> = ({ onSearch, activeServ
 
   const handleSearch = (e: React.FormEvent) => {
     e.preventDefault();
+    console.log('Search button clicked in TravelSearch', { activeService, params });
     onSearch(activeService, params);
   };
 
@@ -109,6 +110,7 @@ export const TravelSearch: React.FC<TravelSearchProps> = ({ onSearch, activeServ
               <input
                 type="text"
                 placeholder="Ville de départ"
+                required
                 value={originInput}
                 onChange={(e) => {
                   const val = e.target.value;
@@ -127,13 +129,16 @@ export const TravelSearch: React.FC<TravelSearchProps> = ({ onSearch, activeServ
                     type="button"
                     onClick={() => {
                       setOriginInput(`${city.name} (${city.code})`);
-                      setParams({ ...params, origin: city.code });
+                      setParams({ ...params, origin: city.code, originName: city.name });
                       setSuggestions(prev => ({ ...prev, origin: [] }));
                     }}
-                    className="w-full text-left px-4 py-2 hover:bg-zinc-50 text-sm flex justify-between items-center"
+                    className="w-full text-left px-4 py-2 hover:bg-zinc-50 text-sm flex justify-between items-center group"
                   >
-                    <span>{city.name}</span>
-                    <span className="text-[10px] font-bold text-zinc-400">{city.code}</span>
+                    <div className="flex flex-col">
+                      <span className="font-medium group-hover:text-black">{city.name}</span>
+                      <span className="text-[10px] text-zinc-400">{city.country_name}</span>
+                    </div>
+                    <span className="text-[10px] font-bold text-zinc-400 bg-zinc-100 px-2 py-1 rounded group-hover:bg-black group-hover:text-white transition-colors">{city.code}</span>
                   </button>
                 ))}
               </div>
@@ -147,6 +152,7 @@ export const TravelSearch: React.FC<TravelSearchProps> = ({ onSearch, activeServ
               <input
                 type="text"
                 placeholder="Où allez-vous ?"
+                required
                 value={destinationInput}
                 onChange={(e) => {
                   const val = e.target.value;
@@ -165,13 +171,16 @@ export const TravelSearch: React.FC<TravelSearchProps> = ({ onSearch, activeServ
                     type="button"
                     onClick={() => {
                       setDestinationInput(`${city.name} (${city.code})`);
-                      setParams({ ...params, destination: city.code });
+                      setParams({ ...params, destination: city.code, destinationName: city.name });
                       setSuggestions(prev => ({ ...prev, destination: [] }));
                     }}
-                    className="w-full text-left px-4 py-2 hover:bg-zinc-50 text-sm flex justify-between items-center"
+                    className="w-full text-left px-4 py-2 hover:bg-zinc-50 text-sm flex justify-between items-center group"
                   >
-                    <span>{city.name}</span>
-                    <span className="text-[10px] font-bold text-zinc-400">{city.code}</span>
+                    <div className="flex flex-col">
+                      <span className="font-medium group-hover:text-black">{city.name}</span>
+                      <span className="text-[10px] text-zinc-400">{city.country_name}</span>
+                    </div>
+                    <span className="text-[10px] font-bold text-zinc-400 bg-zinc-100 px-2 py-1 rounded group-hover:bg-black group-hover:text-white transition-colors">{city.code}</span>
                   </button>
                 ))}
               </div>
@@ -184,6 +193,7 @@ export const TravelSearch: React.FC<TravelSearchProps> = ({ onSearch, activeServ
               <Calendar className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-zinc-400" />
               <input
                 type="date"
+                required
                 value={params.departureDate}
                 onChange={(e) => setParams({ ...params, departureDate: e.target.value })}
                 className="w-full pl-10 pr-4 py-3 bg-zinc-50 border-2 border-transparent focus:border-black rounded-xl text-sm text-zinc-900 transition-all outline-none"
@@ -198,6 +208,7 @@ export const TravelSearch: React.FC<TravelSearchProps> = ({ onSearch, activeServ
                 <Calendar className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-zinc-400" />
                 <input
                   type="date"
+                  required
                   value={params.returnDate}
                   onChange={(e) => setParams({ ...params, returnDate: e.target.value })}
                   className="w-full pl-10 pr-4 py-3 bg-zinc-50 border-2 border-transparent focus:border-black rounded-xl text-sm text-zinc-900 transition-all outline-none"
